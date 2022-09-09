@@ -1,0 +1,41 @@
+
+G
+java:S1172S"1Remove this unused method parameter "mouseEvent".(ÓçÒë
+L
+java:S1172W"1Remove this unused method parameter "mouseEvent".(¬Åµæùÿÿÿÿ
+L
+java:S1172["1Remove this unused method parameter "mouseEvent".(­ä­÷şÿÿÿÿ
+G
+java:S1172`"1Remove this unused method parameter "mouseEvent".(’ÛÿÆ
+G
+java:S1172f"1Remove this unused method parameter "mouseEvent".(Æ¨ÿ
+‚
+java:S1130y"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ÀíĞ±
+h
+java:S1192‚"LDefine a constant instead of duplicating this literal "dateofbirth" 3 times.(üî¼‡ıÿÿÿÿ
+^
+java:S1192ƒ"GDefine a constant instead of duplicating this literal "gender" 4 times.(®š±©
+e
+java:S1192"IDefine a constant instead of duplicating this literal "fullName" 3 times.(©§æşÿÿÿÿ
+c
+java:S1192„"GDefine a constant instead of duplicating this literal "salary" 3 times.(àÔóªùÿÿÿÿ
+b
+java:S1192"FDefine a constant instead of duplicating this literal "phone" 4 times.(©§æşÿÿÿÿ
+`
+java:S1192ƒ"IDefine a constant instead of duplicating this literal "position" 3 times.(®š±©
+b
+java:S1192‚"FDefine a constant instead of duplicating this literal "email" 4 times.(üî¼‡ıÿÿÿÿ
+Œ
+java:S1319È"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ù™Úÿÿÿÿÿ
+q
+java:S1104E"[Make currentEmployee a static final constant or non-public and provide accessors if needed.(®Úëø
+j
+java:S2095}"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ
+k
+java:S2095·"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ
+k
+java:S2095Í"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ
+k
+java:S2095œ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ
+d
+java:S2095ß"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ŞÕ÷æşÿÿÿÿ

@@ -1,0 +1,37 @@
+
+L
+java:S1172O"1Remove this unused method parameter "mouseEvent".(¬Åµæùÿÿÿÿ
+L
+java:S1172S"1Remove this unused method parameter "mouseEvent".(­ä­÷şÿÿÿÿ
+G
+java:S1172X"1Remove this unused method parameter "mouseEvent".(’ÛÿÆ
+G
+java:S1172^"1Remove this unused method parameter "mouseEvent".(Æ¨ÿ
+‚
+java:S1130q"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ÀíĞ±
+g
+java:S1192z"LDefine a constant instead of duplicating this literal "dateofbirth" 3 times.(üî¼‡ıÿÿÿÿ
+]
+java:S1192{"GDefine a constant instead of duplicating this literal "gender" 4 times.(®š±©
+d
+java:S1192y"IDefine a constant instead of duplicating this literal "fullName" 3 times.(©§æşÿÿÿÿ
+b
+java:S1192|"GDefine a constant instead of duplicating this literal "salary" 4 times.(àÔóªùÿÿÿÿ
+a
+java:S1192y"FDefine a constant instead of duplicating this literal "phone" 3 times.(©§æşÿÿÿÿ
+_
+java:S1192{"IDefine a constant instead of duplicating this literal "position" 4 times.(®š±©
+a
+java:S1192z"FDefine a constant instead of duplicating this literal "email" 4 times.(üî¼‡ıÿÿÿÿ
+Œ
+java:S1319¿"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¦şìóıÿÿÿÿ
+j
+java:S2095u"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ
+k
+java:S2095Ä"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ
+k
+java:S2095¶"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ
+d
+java:S2095Ö"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(Èî‹óüÿÿÿÿ
+k
+java:S2095”"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ

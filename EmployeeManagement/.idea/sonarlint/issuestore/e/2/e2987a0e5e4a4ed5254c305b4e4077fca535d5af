@@ -1,0 +1,17 @@
+
+t
+java:S1210Z"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(¢¦ƒ ÿÿÿÿÿ
+[	java:S107"AConstructor has 8 parameters, which is greater than 7 authorized.(²óâ“üÿÿÿÿ
+i
+java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ
+f
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( þÍ¾
+g
+java:S1104"QMake phone a static final constant or non-public and provide accessors if needed.(«ç”¤
+l
+java:S1104	"QMake email a static final constant or non-public and provide accessors if needed.(¾Æ†Ëýÿÿÿÿ
+r
+java:S1104
+"WMake dateOfBirth a static final constant or non-public and provide accessors if needed.(È¡ä¹þÿÿÿÿ
+m
+java:S1104"RMake gender a static final constant or non-public and provide accessors if needed.(×¾“æùÿÿÿÿ

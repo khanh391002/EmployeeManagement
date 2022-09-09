@@ -1,0 +1,11 @@
+
+T
+java:S2387.">"currentEmployee" is the name of a field in "EmployeeManager".(ˆ‘‰ˆ
+—
+java:S11861"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±—ó‚
+m
+java:S2177u"WRename this method; there is a "private" method in the parent class with the same name.(†Àˆœ
+j
+java:S2095W"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ
+j
+java:S2095h"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(·Ç‚æøÿÿÿÿ

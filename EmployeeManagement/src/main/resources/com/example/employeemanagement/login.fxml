@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="320.0" prefWidth="429.0" stylesheets="@../../../css/darkthemes.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.employeemanagement.LoginManager">
+   <children>
+      <PasswordField fx:id="passWord" layoutX="133.0" layoutY="180.0" prefHeight="26.0" prefWidth="190.0" promptText="Password" />
+      <ImageView fitHeight="55.0" fitWidth="56.0" layoutX="187.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/lockdep-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="24.0" layoutX="93.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/testkey-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="93.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/test-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnLogin" layoutX="105.0" layoutY="247.0" mnemonicParsing="false" onAction="#clickButtonLogin" prefHeight="40.0" prefWidth="76.0" text="Login" />
+      <Button fx:id="btnCancel" layoutX="253.0" layoutY="247.0" mnemonicParsing="false" onAction="#clickButtonLogin" prefHeight="40.0" prefWidth="76.0" text="Cancel" />
+      <TextField fx:id="userName" layoutX="133.0" layoutY="108.0" prefHeight="26.0" prefWidth="190.0" promptText="Username" />
+   </children>
+</AnchorPane>

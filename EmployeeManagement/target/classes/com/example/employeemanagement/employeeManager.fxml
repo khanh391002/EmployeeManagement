@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<TabPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="496.0" prefWidth="795.0" stylesheets="@../../../css/styling.css" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.employeemanagement.EmployeeManager">
+   <tabs>
+      <Tab text="Nhân viên">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <BorderPane layoutX="-1.0" layoutY="-1.0" prefHeight="459.0" prefWidth="795.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <top>
+                        <HBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="789.0" spacing="10.0" style="-fx-background-color: #b0e0e6;" BorderPane.alignment="CENTER">
+                           <children>
+                              <Label text="Quản lý nhân viên" textFill="WHITE">
+                                 <font>
+                                    <Font name="Gill Sans MT Italic" size="24.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fx:id="imageAdd" fitHeight="28.0" fitWidth="32.0" onDragDetected="#handAdd" onMouseClicked="#handAdd" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/plus-sign.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="230.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <ImageView fx:id="imageEdit" fitHeight="28.0" fitWidth="32.0" onDragDetected="#handEdit" onMouseClicked="#handEdit" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/edit.png" />
+                                 </image>
+                              </ImageView>
+                              <TextField fx:id="searchText" prefHeight="25.0" prefWidth="141.0" promptText="Tìm kiếm...." />
+                              <ImageView fx:id="imageSearch" fitHeight="28.0" fitWidth="18.0" onDragDetected="#handSearch" onMouseClicked="#handSearch" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/search.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="imageRemove" fitHeight="28.0" fitWidth="24.0" onDragDetected="#handRemove" onMouseClicked="#handRemove" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/rubbish.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="imageReload" fitHeight="28.0" fitWidth="32.0" onDragDetected="#handReload" onMouseClicked="#handReload" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/reload.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </ImageView>
+                           </children>
+                           <padding>
+                              <Insets left="30.0" />
+                           </padding>
+                        </HBox>
+                     </top>
+                     <center>
+                        <TableView fx:id="employeeTableView" prefHeight="437.0" prefWidth="795.0" stylesheets="@../../../css/styling.css" BorderPane.alignment="CENTER">
+                           <columns>
+                              <TableColumn fx:id="columnId" minWidth="0.0" prefWidth="72.0" text="ID" />
+                              <TableColumn fx:id="columnName" prefWidth="147.0" text="Name" />
+                              <TableColumn fx:id="columnPhone" prefWidth="154.0" text="Phone" />
+                              <TableColumn fx:id="columnEmail" prefWidth="172.0" text="Email" />
+                              <TableColumn fx:id="columnDateOfBirth" prefWidth="148.0" text="Date of birth" />
+                              <TableColumn fx:id="columnGender" prefWidth="97.0" text="Gender" />
+                           </columns>
+                        </TableView>
+                     </center>
+                  </BorderPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+   </tabs>
+</TabPane>
